@@ -15,3 +15,11 @@ if floor(random_range(0, manrate)) = 0
 	var _Sound = instance_create_layer(x, y - sprite_height, "Front", obj_sound)
 	_Sound.duration = 0.4
 }
+if hp < 0
+	dead = true
+	
+if dead = true
+{
+	audio_play_sound(aud_WhatDidIDo2, 0, false)
+	instance_destroy()
+}

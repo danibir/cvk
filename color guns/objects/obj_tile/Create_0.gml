@@ -1,4 +1,6 @@
-
+lane = 0
+row = 0
+tile = instance_create_layer(x, y, "Instances", obj_tower_shooter)
 is_Subtile = false
 sprite_index = spr_tile1
 

@@ -19,6 +19,8 @@ for (var a = 0; a < grid_Count_X; a++)
 	{	
 		var _Tile = instance_create_layer(x + a * grid_Size_X + grid_Size_X / 2, y + b * grid_Size_Y + grid_Size_Y / 2, "Instances", obj_tile)
 		_Tile.is_Subtile = bool(_Variation)
+		_Tile.row = a
+		_Tile.lane = b
 		_Variation++
 		if _Variation = 2
 			_Variation = 0

@@ -1,14 +1,19 @@
-lane ??= 0
+dead = false
+if not variable_instance_exists(self, "lane")
+	lane = 0
 
 image_index = random_range(0, image_number)
-size ??= 2
+if not variable_instance_exists(self, "size")
+	size = 2
 image_xscale = size
 image_yscale = size
 
-
-hp ??= 2700
-walkspeed ??= 0.4
-voice ??= 1
+if not variable_instance_exists(self, "hp")
+	hp = 2700
+if not variable_instance_exists(self, "walkspeed")
+	walkspeed = 0.4
+if not variable_instance_exists(self, "voice")
+	voice = 1
 
 walkspeed *= random_range(0.98, 1.02)
 walkcycle = 1
