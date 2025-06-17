@@ -1,2 +1,5 @@
-other.hp -= 1
-instance_destroy()
+if other.lane = lane
+{
+	other.hp -= hp
+	instance_destroy()
+}

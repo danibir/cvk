@@ -1,4 +1,7 @@
+
+state = "moving"
 dead = false
+volume_Multi = 0
 if not variable_instance_exists(self, "lane")
 	lane = 0
 
@@ -8,6 +11,7 @@ if not variable_instance_exists(self, "size")
 image_xscale = size
 image_yscale = size
 
+
 if not variable_instance_exists(self, "hp")
 	hp = 2700
 if not variable_instance_exists(self, "walkspeed")
@@ -15,5 +19,11 @@ if not variable_instance_exists(self, "walkspeed")
 if not variable_instance_exists(self, "voice")
 	voice = 1
 
+
+if not variable_instance_exists(self, "aspeed")
+	aspeed = 30
+acooldown = aspeed
+if not variable_instance_exists(self, "damage")
+	damage = 50
+
 walkspeed *= random_range(0.98, 1.02)
-walkcycle = 1

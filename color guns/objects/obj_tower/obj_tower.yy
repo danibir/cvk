@@ -35,5 +35,8 @@
     "path":"sprites/Sprite8/Sprite8.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "IsAlive",
+  ],
   "visible":true,
 }

@@ -53,6 +53,7 @@
     {"id":{"name":"aud_WhatHaveIDone1","path":"sounds/aud_WhatHaveIDone1/aud_WhatHaveIDone1.yy",},},
     {"id":{"name":"spr_dott","path":"sprites/spr_dott/spr_dott.yy",},},
     {"id":{"name":"spr_koko","path":"sprites/spr_koko/spr_koko.yy",},},
+    {"id":{"name":"spr_kokoA","path":"sprites/spr_kokoA/spr_kokoA.yy",},},
     {"id":{"name":"spr_tile1","path":"sprites/spr_tile1/spr_tile1.yy",},},
     {"id":{"name":"spr_tile2","path":"sprites/spr_tile2/spr_tile2.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
