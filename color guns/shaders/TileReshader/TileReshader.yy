@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"TileReshader",
+  "name":"TileReshader",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

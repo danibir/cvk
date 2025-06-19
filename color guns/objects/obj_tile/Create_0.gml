@@ -1,6 +1,9 @@
 lane = 0
 row = 0
-tile = instance_create_layer(x, y, "Instances", obj_tower_shooter)
+
+tile = noone
+if floor(random_range(0, 4)) = 0
+	tile = instance_create_layer(x, y, "Instances", tower_shooter)
 is_Subtile = false
 sprite_index = spr_tile1
 

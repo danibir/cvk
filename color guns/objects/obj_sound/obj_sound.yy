@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite5",
-    "path":"sprites/Sprite5/Sprite5.yy",
+    "name":"spr_sound",
+    "path":"sprites/spr_sound/spr_sound.yy",
   },
   "spriteMaskId":null,
   "visible":true,
