@@ -1,16 +1,20 @@
-function kokoSpawn_Create (_name, _entity, _cost)
+
+function entity_Data_Create (_name, _entity, _sprite, _cost, _color)
 constructor
 {
 	name = _name
 	entity = _entity
+	sprite = _sprite
 	cost = _cost
+	color = _color
 }
 
 kokoSpawnDictionary = {
-	koko_basic: new kokoSpawn_Create("Koko", genus_walker, 25
-	),
-	koko_mad: new kokoSpawn_Create("Mad Koko", koko_red, 35
-	),
-	koko_hatted: new kokoSpawn_Create("Hat Koko", koko_hatted, 35
-	),
+	k_basic: new entity_Data_Create("Koko", entity_koko, spr_koko, 25, noone),
+	k_mad: new entity_Data_Create("Mad Koko", koko_mad, spr_koko, 35, noone),
+	k_wimp: new entity_Data_Create("Wimpy Koko", koko_wimp, spr_koko, 35, noone),
+	k_giga: new entity_Data_Create("Gagantuar Koko", koko_giga, spr_koko, 250, noone)
+}
+towerCardDictionary = {
+	t_shooter: new entity_Data_Create("Conjury", tower_shooter, sprph_barrel, 100, noone)
 }

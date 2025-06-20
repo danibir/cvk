@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"koko_red",
+  "%Name":"entity_koko",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"entity_tower","path":"objects/entity_tower/entity_tower.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"koko_red",
+  "name":"entity_koko",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"genus_walker",
-    "path":"objects/genus_walker/genus_walker.yy",
+    "name":"base_entity",
+    "path":"objects/base_entity/base_entity.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -32,7 +34,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_hitbox_koko",
+    "path":"sprites/spr_hitbox_koko/spr_hitbox_koko.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

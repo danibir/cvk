@@ -14,6 +14,8 @@ if not variable_instance_exists(self, "size")
 	size = 2
 sprite_Object.image_xscale *= size
 sprite_Object.image_yscale *= size
+image_xscale *= size
+image_yscale *= size
 
 takendamage = 0
 if not variable_instance_exists(self, "armor")
@@ -34,6 +36,7 @@ if not variable_instance_exists(self, "walkSprite")
 	
 
 
+alag = 2
 if not variable_instance_exists(self, "aspeed")
 	aspeed = 30
 acooldown = aspeed

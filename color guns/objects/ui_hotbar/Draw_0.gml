@@ -2,6 +2,7 @@ draw_self()
 draw_sprite_stretched(spr_uibox, 1, x, y, 100, sprite_height)
 draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
+draw_set_color(c_white)
 draw_text(x + 50, y + sprite_height * 0.8, chromars)
 var size = 60
 draw_sprite_stretched(spr_chomar, 1, x + 50 - size / 2, y + sprite_height * 0.4 - size / 2, size, size)

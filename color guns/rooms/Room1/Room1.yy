@@ -6,10 +6,10 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
+    {"name":"inst_DD73C49","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_709B91D","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_29E3328B","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_554BCF6B","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_DD73C49","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[

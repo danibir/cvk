@@ -1,6 +1,6 @@
 if lane = other.lane
 {
-	waitToWalk = 2
+	waitToWalk = alag
 	state = "still"
 	if acooldown <= 0
 	{

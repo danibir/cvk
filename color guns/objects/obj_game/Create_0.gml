@@ -1,8 +1,9 @@
 spawnlocations = []
 tensity = 0
-tensitychance = 1/5
+maxi = 2
+tensitychance = 1/20
 audio_play_sound(mu_BokoKokoStroll, 0, true, 1, 0, 1)
-kokos = ["koko_basic", "koko_hatted"]
+kokos = [koko_basic, koko_wimp, koko_giga]
 
 function spawn_koko(type) {
 	var _Lane = floor(random_range(0, obj_Field.grid_Count_Y))
@@ -11,3 +12,6 @@ function spawn_koko(type) {
 	koko.lane = _Lane
 	array_push(obj_Field.kokosInLane[_Lane], koko)
 }
+
+var mouse = instance_create_layer(x, y, "UI", obj_mouse)
+mouse.depth -= 60

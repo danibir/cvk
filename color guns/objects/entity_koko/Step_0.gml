@@ -14,7 +14,8 @@ if waitToWalk <= 0
 	//if sprite_Object.sprite_index != spr_koko
 		//sprite_Object.image_index = 3
 	sprite_Object.sprite_index = spr_koko
-	sprite_Object.image_speed = walkspeed
+	sprite_Object.image_speed = walkspeed * sign(sprite_Object.image_xscale)
+	acooldown = aspeed / 2
 }
 else
 {
@@ -61,5 +62,10 @@ if hp < 0
 if dead = true
 {
 	audio_play_sound(aud_WhatDidIDo2, 0, false, volume_Multi, 0, random_range(0.95, 1.3) * 3, false)
+	instance_destroy()
+}
+if x > room_width * 1.2
+{
+	obj_game.tensity += cost
 	instance_destroy()
 }

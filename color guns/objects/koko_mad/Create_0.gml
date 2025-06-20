@@ -6,4 +6,4 @@ walkspeed *= 2
 aspeed /= 2
 hp /= 3
 
-voice *= 0.7
+voice *= 0.9
