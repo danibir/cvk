@@ -19,5 +19,5 @@ if not variable_instance_exists(self, "size")
 sprite_Object.image_xscale *= size
 sprite_Object.image_yscale *= size
 sprite_index = spr_hitbox_tower
-sprite_Object.sprite_index = sprph_barrel
+sprite_Object.sprite_index = struct_get(myStruct, "sprite")
 depth++

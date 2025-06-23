@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"koko_mad",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"tower_money",
+  "eventList":[],
   "managed":true,
-  "name":"koko_mad",
+  "name":"tower_money",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"entity_koko",
-    "path":"objects/entity_koko/entity_koko.yy",
+    "name":"entity_tower",
+    "path":"objects/entity_tower/entity_tower.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite20",
+    "path":"sprites/Sprite20/Sprite20.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

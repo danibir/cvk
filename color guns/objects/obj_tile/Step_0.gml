@@ -9,4 +9,6 @@ if tile != noone
 {
 	tile.lane = lane
 	tile.row = row
+	tile.x = x 
+	tile.y = y + obj_Field.grid_Size_Y * 0.35
 }

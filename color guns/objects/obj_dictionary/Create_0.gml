@@ -16,5 +16,6 @@ kokoSpawnDictionary = {
 	k_giga: new entity_Data_Create("Gagantuar Koko", koko_giga, spr_koko, 250, noone)
 }
 towerCardDictionary = {
-	t_shooter: new entity_Data_Create("Conjury", tower_shooter, sprph_barrel, 100, noone)
+	t_shooter: new entity_Data_Create("Conjury", tower_shooter, sprph_barrel, 100, noone),
+	t_money: new entity_Data_Create("Gold", tower_money, Sprite20, 50, noone)
 }
